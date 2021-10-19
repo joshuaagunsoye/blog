@@ -1,0 +1,128 @@
+.container{
+    margin:0;
+    display:grid;
+    background-image: url("image/basketball.jpg");
+    background-size: cover;
+    font-size: large;
+    font-family: 'Architects Daughter', cursive;
+    /* font-weight: bold; */
+    height:100vh;
+    width:100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr 100px;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+.container div{
+    /* border-style:solid; */
+    color: black;
+    border-color: black;
+}
+.header{
+    grid-column-start:1;
+    grid-column-end: 4;
+}
+.content1{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    overflow: auto;
+    
+}
+.content2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    overflow:auto;
+    
+}
+.content3{
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    overflow: auto;
+}
+.content4{
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    overflow: auto;
+}
+.footer{
+    grid-column-start:1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.face{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.Twitter{
+    display:flex;
+    justify-content: center;
+}
+h{
+    text-decoration: underline;
+    display: block;
+    font-weight:bolder;
+}
+.header h{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+content{
+    color:black;
+    font-weight: bold;
+}
+img{
+    display: block;
+    margin: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.section{
+    display: flex;
+    height: 100vh;
+    width:100%;
+    font-family: 'Architects Daughter', cursive;;
+    font-weight: bolder;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+    
+}
+.section h1{
+    text-align: center;
+    font-size: 6rem;
+    background:white;
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    opacity: .5;
+
+}
+.video{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+a{
+    text-decoration: none;
+    
+    
+}
